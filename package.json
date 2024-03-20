@@ -1,0 +1,24 @@
+{
+  "name": "bun-all",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "bun-all": "./bun-all"
+  },
+  "scripts": {
+    "example": {
+      "dev": "echo \"Testing from dev!\"",
+      "prod": "echo \"Testing from prod???\""
+    },
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "yargs-parser": "^21.1.1"
+  }
+}
